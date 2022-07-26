@@ -1,0 +1,22 @@
+﻿  PostgresProtocolAnalysis.c
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(130,25): warning C4018: “<”: 有符号/无符号不匹配
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(199,24): warning C4018: “<”: 有符号/无符号不匹配
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(253,17): warning C4477: “sprintf”: 格式字符串“%c”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(253,17): warning C4473: “sprintf”: 没有为格式字符串传递足够的参数
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(253,17): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(253,17): message : 缺失的可变参数 2 为格式字符串“%s”所需
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(309,24): warning C4018: “<”: 有符号/无符号不匹配
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(346,24): warning C4018: “<”: 有符号/无符号不匹配
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(452,69): warning C4047: “函数”:“char *”与“char (*)[256]”的间接级别不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(452,56): warning C4024: “get_pcap_pack_hdr”: 形参和实参 3 的类型不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(461,39): warning C4047: “函数”:“char *”与“char (*)[256]”的间接级别不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(461,31): warning C4024: “get_eth_hdr”: 形参和实参 3 的类型不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(465,48): warning C4047: “函数”:“char *”与“char (*)[256]”的间接级别不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(465,41): warning C4024: “get_ip_hdr”: 形参和实参 3 的类型不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(470,43): warning C4047: “函数”:“char *”与“char (*)[256]”的间接级别不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(470,35): warning C4024: “get_tcp_hdr”: 形参和实参 3 的类型不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(495,50): warning C4047: “函数”:“char *”与“char (*)[2048]”的间接级别不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(495,39): warning C4024: “get_pgsql_hdr”: 形参和实参 2 的类型不同
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(537,14): warning C4013: “getch”未定义；假设外部返回 int
+F:\Code\代码\Postgres_Protocol_Analysis\Postgres_Protocol_Analysis\PostgresProtocolAnalysis.c(550): warning C4715: “pcap_unpack”: 不是所有的控件路径都返回值
+  Postgres_Protocol_Analysis.vcxproj -> F:\Code\代码\Postgres_Protocol_Analysis\Debug\Postgres_Protocol_Analysis.exe
